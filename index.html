@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" >
+            <title>WebSite 2 </title>
+        <link rel="stylesheet" href="Style.css"
+        type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" 
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/059fa98d93.js" 
+        crossorigin="anonymous"></script>
+        
+    </head>
+<body>
+    
+    <!--Menu HTML-->
+    
+<div class="mainDiv">
+        
+        <input type="checkbox" class="toggle" />
+        
+         <div class="menu-line">
+         <div></div>
+         </div>
+    
+        <div class="menu" >
+        
+           <div>
+        
+            <div>
+              <ul>
+               <li><a href="#" >HOME </a></li>
+   <li><a href="#secondDiv" >MY SKILLS</a></li>
+   <li><a href="#thirdDiv" >ABOUT Me</a></li>
+   <li><a href="#contact-me" >CONTACT</a></li>
+             </ul>
+           </div>
+    
+         </div>
+    
+     </div>
+      
+</div>
+   
+    <!--Menu HTML-->
+    
+    <!--Main Content-->
+        
+<div class="main-content" >
+        
+    <div class="content">
+            
+            <div class="logo" >
+            <h1>Sk Orko</h1>
+           </div>
+        
+           <h2>I'm <span class="s">A Web</span></br><span class="ss">Developer</span></h2>
+        
+         <p>Wanna <span>Hire Me? </span> </p>
+        
+         <a href="#" class="btn">Click Here </a>
+ <i class="fas fa-5x fa-angle-double-down" ></i>
+        
+    </div>
+        
+</div>
+    
+    <!--Main Content-->
+    <!--My Skill's-->
+<div class="mySkills" id="secondDiv">
+        
+           <div class="header1" >
+           <h2>My Skills</h2>
+           </div>
+        
+    <div class="perDiv" >
+        
+         <h2 class="html">Html</h2>
+         <div class="html-line"> </div>
+           <span class="br1">
+           <span class="br2">
+           </span>
+           </span>
+        
+           <h2 class="css">css</h2>
+          <div class="css-line"> </div>
+           <span class="br11">
+           <span class="br22">
+           </span>
+           </span>
+        
+           <h2 class="java">javascript</h2>
+          <div class="java-line"> </div>
+           <span class="br111">
+           <span class="br222">
+           </span>
+           </span>
+        
+    </div>
+        
+</div>
+    <!--My Skill's-->
+    <!--About Me-->
+        
+<div class="about-me"  id="thirdDiv">
+        
+           <div class="header2" >
+           <h2>About Me</h2>
+           </div>
+        
+    <div class="pic-txt" >
+            
+           <div class="pic" >
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPSpQi4K_KPW79J5Dr6FhPpJRJyRDVPy-YlhM40rc0puXykEp9&usqp=CAU" alt=" " />
+           <h2>About Me</h2>
+           </div>
+        
+           <div class="txt" >
+           <p>
+                Hey Guy's Nitish Thapa
+                This Is Me A Boy Sk Orko.
+                I'm 19 Year's Old. I Read In 
+                Collage In BCA . I Am A 
+                Little Programmer & Web
+                Developer. My Dream Is To Be A
+                Master In Programming. But The
+                Matter Of Sorrow That I Don't  
+                Have A Laptop 
+           </p>
+           </div>
+        
+     </div>
+         
+</div>
+    <!--About Me-->
+    <!--Contact Me-->
+<div class="contact-me" id="contact-me">
+            
+        <div class="header3" >
+          <h2>Contact</h2>
+        </div>
+        
+      <div class="msgDiv" >
+      <input type="text" placeholder="Wanna Send Me Massege ?" />
+        <a href="#contact-me" > > </a>
+        </div>
+        
+        <div class="aa" >
+        <a href="#contact-me" >
+        <i class="fab fa-facebook fa-2x"> </i>
+        </a>
+        </div>
+        
+        <div class="aa1" >
+        <a href="#contact-me" >
+        <i class="fab fa-instagram fa-2x"> </i>
+        </a>
+        </div>
+        
+        
+        <div class="aa2" >
+        <a href="#contact-me" >
+        <i class="fab fa-youtube fa-2x"> </i>
+        </a>
+        </div>
+        
+<div class="aa3">
+    <a href="contect-me">
+        <i class="fab fa-watsaap 7037642132 fa-2x"></i>
+    </a>
+</div>
+    <!--Contact Me-->
+    <!--Footer-->
+<div class="footer" >
+    
+         <p><span>&copy</span>2023@SkOrko </p>
+       
+</div>
+    <!--Footer-->
+</body>
+</html>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Josefin Sans', sans-serif; 
+    }
+html{
+    scroll-behavior:smooth;
+    }
+.main-content {
+    position:relative;
+    width:100vw;
+    height:100vh;
+    background:linear-gradient(to bottom , #12CBC4 , #0652DD);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50% 30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    overflow:hidden;
+    }
+.main-content:before {
+    content: " ";
+    position:absolute;
+    right:-221px;
+    top:-190px;
+    width:120%;
+    height:130%;
+    background:white;
+    transform:rotate(-35deg);
+    
+    }
+.content {
+    max-width:350px;
+    padding:2rem;
+    position:relative;
+    z-index:1;
+    }
+.content .logo{
+    position:absolute;
+    width:180px;
+    height:40px;
+    top:-153px;
+  left:105px;
+  color:#12CBC4;
+    text-transform:uppercase;
+    }
+.content .logo h1{
+    
+    }
+.content h2 {
+    font-size:2.6rem;
+    margin-bottom:0.8rem;
+    color:black;
+    position:absolute;
+    top:-50px;
+    left:-10px;
+    }
+.content h2 .ss{
+    color:#12CBC4;
+    font-size:2.2rem;
+    top:50px;
+    color:black;
+    left:17px;
+    position:absolute;
+    }
+.content p {
+    color:white;
+    font-size:1rem;
+    text-align:justify;
+    font-weight:600;
+    margin-top:15px;
+    margin-left:-4px;
+    }
+.content p span {
+    color:#12CBC4;
+    }
+.btn {
+    padding:0.75rem 1.2rem;
+    font-weight:700;
+    text-transform:uppercase;
+    background-color:#fff44f;
+    font-size:1rem;
+    transition:0.6s;
+    border-radius:30px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    margin-top:1.2rem;
+    margin-left:-6px;
+    border:1px solid black;
+  padding-top:15px;
+    }
+.btn:hover {
+    opacity:0.7;
+    }
+.content i{
+               position:absolute;
+               left:80px;
+               top:170px;
+               color:white;
+               animation: z1 2s linear infinite;
+    }
+@keyframes z1 {
+    0% {
+        top:170px;
+        }
+    100% {
+        top:220px;
+        }
+    }
+
+.mainDiv{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+    }
+.toggle{
+    position:absolute;
+    top:0.5rem;
+    left:0.5rem;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    z-index:3;
+    opacity:0;
+    }
+.menu-line{
+    position:absolute;
+    top:0.5rem;
+    left:0.5rem;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:yellow;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:2;
+    border:1px solid black;
+    }
+.menu-line div {
+    position:absolute;
+    width:50%;
+    height:3px;
+    border-radius:1.5px;
+    background-color:#111;
+    transition:0.4s;
+    }
+.menu-line div:before, .menu-line div:after {
+    content: " ";
+    position:absolute;
+    width:100%;
+    height:3px;
+    border-radius:1.5px;
+    background-color:#111;
+    transition:0.4s;
+    }
+.menu-line div:before {
+    top:-10px;
+    }
+.menu-line div:after{
+    top:10px;
+    }
+.toggle:checked + .menu-line > div {
+    transform:rotate(135deg);
+    }
+.toggle:checked:hover + .menu-line > div {
+    transform:rotate(225deg);
+    }
+.toggle:checked + .menu-line > div:after,  .toggle:checked + .menu-line > div:before {
+    top:0;
+    transform:rotate(90deg);
+    }
+.toggle:checked ~ .menu {
+    visibility:visible;
+    }
+.toggle:checked ~ .menu > div{
+    transform:translateX(-0%) translateY(-0%);
+    border-radius:0%;
+    }
+.toggle:checked ~ .menu > div > div{
+    opacity:1;
+    }
+.menu{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    visibility:hidden;
+    transition:1s;
+    }
+.menu > div {
+    posotion:absolute;
+    width:360px;
+    height:568px;
+    border-radius:50%;
+    background-color:rgba(0,0,0,0.7);
+    transform:translateX(-150%) translateY(-50%);
+    transition:0.6s;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+.menu > div > div {
+    max-width:90vw;
+    max-height:100vh;
+    opacity:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    }
+.menu > div > div > ul > li{
+    list-style:none;
+    
+    }
+.menu > div > div > ul > li > a {
+    text-decoration:none;
+    margin:0.8rem;
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:800;
+    font-size:1.2rem;
+    display:inline-block;
+    letter-spacing:2px;
+    transition:0.4s;
+    }
+.menu > div > div > ul > li > a:hover {
+    color:yellow;
+    }
+.mySkills {
+    position:relative;
+    width:100%;
+    height:100vh;
+    background-color:#EFEFEF; 
+    }
+.header1{
+    width:270px;
+    height:65px;
+    top:20px;
+    left:48px;
+    background:#fff;
+    border:1px solid black;
+    border-radius:33px;
+    position:absolute;
+    }
+.header1 h2 {
+    font-size:2.5rem;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-top:14px;
+    margin-left:16px;
+    position:relative;
+    }
+.header1 h2:after {
+    content: " ";
+    position:absolute;
+    bottom:3px;
+    left:4px;
+    width:0;
+    height:3px;
+    background-color:black;
+    transition:0.5s linear;
+    }
+.header1 h2:hover:after{
+    width:90%;
+    }
+.perDiv {
+    width:100%;
+    height:80vh;
+    position:absolute;
+    bottom:0;
+    overflow:hidden;
+    }
+.perDiv .html{
+    font-size:3rem;
+    left:107px;
+    top:20px;
+    position:relative;
+    text-transform:uppercase;
+    }
+
+
+.perDiv .html-line{
+    width:149px;
+    height:3px;
+    background-color:black;
+    position:absolute;
+    left:111px;
+    top:65px;
+    transition:0.6s linear;
+    }
+.perDiv .br1{
+    width:330px;
+    height:10px;
+    background-color:#fff;
+    position:absolute;
+    left:15px;
+    top:100px;
+    border-radius:10px;
+    box-shadow:0 0 1px 1px black;
+    }
+.perDiv .br2{
+    width:90%;
+    height:10px;
+    background:linear-gradient(to right , #12CBC4 , #0652DD);
+    position:absolute;
+    border-radius:10px;
+    }
+    .perDiv .css{
+    font-size:3rem;
+    left:133px;
+    top:94px;
+    position:relative;
+    text-transform:uppercase;
+    }
+
+
+.perDiv .css-line{
+    width:109px;
+    height:3px;
+    background-color:black;
+    position:absolute;
+    left:130px;
+    top:190px;
+    transition:0.6s linear;
+    }
+.perDiv .br11{
+    width:330px;
+    height:10px;
+    background-color:#fff;
+    position:absolute;
+    left:15px;
+    top:230px;
+    border-radius:10px;
+    box-shadow:0 0 1px 1px black;
+    }
+.perDiv .br22{
+    width:85%;
+    height:10px;
+    background:linear-gradient(to right , #e84393 , #0652DD);
+    position:absolute;
+    border-radius:10px;
+    }
+
+.perDiv .java{
+    font-size:2rem;
+    left:90px;
+    top:170px;
+    position:relative;
+    text-transform:uppercase;
+    }
+
+
+.perDiv .java-line{
+    width:205px;
+    height:3px;
+    background-color:black;
+    position:absolute;
+    left:87px;
+    top:310px;
+    transition:0.6s linear;
+    }
+.perDiv .br111{
+    width:330px;
+    height:10px;
+    background-color:#fff;
+    position:absolute;
+    left:15px;
+    top:360px;
+    border-radius:10px;
+    box-shadow:0 0 1px 1px black;
+    }
+.perDiv .br222{
+    width:30%;
+    height:10px;
+    background:linear-gradient(to right , #fdcb6e , #55efc4 );
+    position:absolute;
+    border-radius:10px;
+    }
+.about-me {
+    width:100%;
+    height:115vh;
+    background-color: #03002E;
+    position:relative;
+    overflow:hidden;
+    }
+.about-me:before {
+    content: " ";
+    position:absolute;
+    width:50%;
+    height:50px;
+    top:-25px;
+    left:0;
+    background-color: #03002E;
+    transform:skewY(8deg);
+    }
+.about-me:after{
+    content: " ";
+    position:absolute;
+    width:50%;
+    height:50px;
+    top:-25px;
+    right:0;
+    background-color:#03002E;
+    transform:skewY(-8deg);
+    }
+    
+.header2{
+    width:270px;
+    height:65px;
+    top:20px;
+    left:46px;
+    background:#fff;
+    border:2px solid yellow;
+    border-radius:33px;
+    position:absolute;
+    z-index:1;
+    }
+.header2 h2 {
+    font-size:2.4rem;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-top:14px;
+    margin-left:16px;
+    position:relative;
+    }
+.header2 h2:after {
+    content: " ";
+    position:absolute;
+    bottom:3px;
+    left:1px;
+    width:0;
+    height:3px;
+    background-color:black;
+    transition:0.5s linear;
+    }
+.header2 h2:hover:after{
+    width:90.5%;
+    }
+.pic-txt {
+    position:relative;
+    width:310px;
+    height:420px;
+    background-color:white;
+    z-index:1;
+    top:110px;
+    left:25px;
+    border-radius:7px;
+    border:2px solid white; 
+    }
+.pic-txt .pic {
+    position:relative;
+    width:100%;
+    height:50%;
+    }
+.pic-txt .pic:after{
+    content: " ";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:7px 7px 0 0;
+    background-color:rgba(0,0,0,0.7);
+    transition:0.5s linear;
+    opacity:0;
+    }
+.pic-txt .pic h2 {
+    position:absolute;
+    z-index:1;
+    color:white;
+    top:170px;
+    left:10px;
+    text-transform:uppercase;
+    transition:0.5s linear;
+    opacity:0;
+    }
+.pic-txt .pic:hover:after{
+    opacity:1;
+    }
+.pic-txt .pic:hover h2 {
+    opacity:1;
+    }
+.pic-txt .pic img{
+    position:absolute;;
+    width:100%;
+    height:100%;
+    border-radius:7px 7px 0 0;
+    }
+.txt{
+    position:relative;
+    width:100%;
+    height:50%;
+    border-radius:0 0 7px 7px;
+    }
+.txt p {
+    color: #03002E;
+    text-align:justify;
+    position:absolute;
+    margin:10px;
+    font-weight:600;
+    top:10px;
+    line-height:20px;
+    }
+.contact-me {
+    position:relative;
+    width:100%;
+    height:100vh;
+    background-color: #6D214F;
+    }
+.contact-me:before {
+    content:" ";
+    position:absolute;
+    width:100%;
+    height:50px;
+    top:-15px;
+    left:0;
+    background-color: #6D214F;
+    transform:skewY(-4deg);
+    z-index:1;
+    }
+.msgDiv{
+    position:relative;
+    background-color:white;
+    width:300px;
+    height:60px;
+    top:150px;
+    left:30px;
+    border-radius:30px;
+    border:2px solid black;
+    }
+.msgDiv input {
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius:30px;
+    border:none;
+    outline:none;
+    padding-left:30px;
+    padding-right:70px;
+    }
+.msgDiv a {
+    position:absolute;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:#FF525C;
+    left:241px;
+    top:3.2px;
+    text-align:center;
+    padding-top:3px;
+    padding-left:2.5px;
+    font-size:40px;
+    color:white;
+    font-weight:500;
+    text-decoration:none;
+    }
+.header3{
+    width:270px;
+    height:65px;
+    top:20px;
+    left:46px;
+    background:#fff;
+    border:2px solid black;
+    border-radius:33px;
+    position:absolute;
+    z-index:1;
+    }
+.header3 h2 {
+    font-size:2.7rem;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-top:12px;
+    margin-left:13px;
+    position:relative;
+    }
+.header3 h2:after {
+    content: " ";
+    position:absolute;
+    bottom:3px;
+    left:7px;
+    width:0;
+    height:3px;
+    background-color:black;
+    transition:0.5s linear;
+    }
+.header3 h2:hover:after{
+    width:87%;
+    }
+.contact-me .aa , .aa1 , .aa2{
+              width:90px;
+              height:90px;
+              text-decoration:none;
+              background-color: #fff;
+              text-align:center;
+              top:200px;
+              position:relative;
+              display:inline-block;
+              line-height:95px;
+              margin-right:10px;
+              left:32px;
+              border-radius:25px;
+              transotion:0.5s linear;
+              border:2px solid black;
+    }
+.fa-instagram {
+    color:#e84393;
+    }
+.fa-youtube {
+    color:#e84118;
+    }
+.contact-me .aa i {
+    transition:all 0.5s linear;
+    }
+.contact-me .aa1 i {
+    transition:all 0.5s linear;
+    }
+.contact-me .aa2 i {
+    transition:all 0.5s linear;
+    }
+.contact-me .aa:hover i{
+    transform:scale(1.3);
+    color:white;
+    }
+.contact-me .aa:hover{
+    background-color:#03002E;
+    }
+.contact-me .aa1:hover i{
+    transform:scale(1.3);
+    color:white;
+}
+.contact-me .aa1:hover{
+    background-color:#e84393;
+    }
+.contact-me .aa2:hover i{
+    transform:scale(1.3);
+    color:white;
+    }
+.contact-me .aa2:hover{
+    background-color:#e84118 ;
+    }
+
+.footer{width:100%;
+               height:80px;
+               background-color:white;
+               position:relative;
+           
+    }
+.footer:before{content: " ";
+                             width:100%;
+                             height:50px;
+                             background-color:white;
+                             position:absolute;
+                             top:-25px;
+                             transform:skewY(-7deg);
+    }
+.footer p {
+                position:absolute;
+                color:black;
+                right:5px;
+                bottom:5px;
+                font-size:18px;
+                font-weight:bold;
+                color:#00CE83;
+    }
+.footer p span {font-size:35px;
+                 color:black;
+                 font-weight:100;
+                 bottom:-8px;
+                 right:125px;
+                 position:absolute;
+    }
